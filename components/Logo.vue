@@ -10,8 +10,8 @@
 <style>
 .VueToNuxtLogo {
   display: inline-block;
-  animation: turn 2s linear forwards 1s;
-  transform: rotateX(180deg);
+  animation: turn 0.1s linear forwards 0.1s;
+  transform: rotateY(180deg);
   position: relative;
   overflow: hidden;
   height: 180px;
