@@ -12,7 +12,7 @@
       <div class="text-center">
         <logo />
         <VuetifyLogo />
-
+        {{ remainMinutes }}
       </div>
       <v-card>
         <v-card-title class="headline">
@@ -44,6 +44,23 @@ export default {
   components: {
     Logo,
     VuetifyLogo
+  },
+  data: () =>({
+    now: "525600",
+    month: 0
+  }),
+  computed: {
+    remainMinutes(){
+      this.month = new Date()
+      const year = new Date().getFullYear()
+      //今年の元旦
+      //現在の時刻
+      //元旦から何分経過したか
+      //閏年か？
+      //525600minから経過時間を引き算する
+      
+      return this.month
+    }
   }
 }
 </script>
