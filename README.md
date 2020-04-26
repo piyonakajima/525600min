@@ -1,27 +1,22 @@
- # 525600min 
- 
- 一年が残り何分かを表示するWebアプリを作る方法について記載します。
+# 525600min
 
- # Firebase CLIをインストールする
+> 一年が残り何分か表示する
 
- https://firebase.google.com/docs/cli?authuser=0#install_the_firebase_cli
+## Build Setup
 
- # npxが入っていることを確認する
+```bash
+# install dependencies
+$ yarn install
 
- https://ja.nuxtjs.org/guide/installation/
+# serve with hot reload at localhost:3000
+$ yarn dev
 
- # 525600min 
- 
- 一年が残り何分かを表示するWebアプリを作る方法について記載します。
+# build for production and launch server
+$ yarn build
+$ yarn start
 
- # 以下を実施してNuxtのプロジェクトを作る
+# generate static project
+$ yarn generate
+```
 
- https://ja.nuxtjs.org/guide/installation/
-
- # Firebase CLIをインストールする
-
- https://firebase.google.com/docs/cli?authuser=0#install_the_firebase_cli
-
-
-
- #  
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
