@@ -9,7 +9,7 @@
       :fixed="fixed"
       app
     >
-      <span>&copy; {{ new Date().getFullYear() }} piyonakajima</span>
+      <span>&copy; {{ new Date().getFullYear() }} piyonakajima <a href="https://github.com/piyonakajima/525600min">GitHub</a></span>
     </v-footer>
   </v-app>
 </template>
